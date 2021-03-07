@@ -4,53 +4,168 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+
+    
+
+
     <script defer src="./js/script.js"></script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
    
-    <title>RANDOM</title>
+    <title>Randomization</title>   
 </head>
 <body>
-  <main id="main">
-    <h1>Random Quote for Today:</h1>
-    <div id="container">
-        <h3 id="content"></h3>
-    </div>    
-        <button id="moreContent" type="submit">Quote</button>
+
+
+<!-- Sliders -->
+  <div id="carouselExampleIndicators" class="carousel slide " data-interval="false" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+
+                       <!-- Page 1 -->
+    <div  class="carousel-inner">
+      <div class="carousel-item active page1">
+        <div id="main-page1"> 
+          <h1 id="heading1" class="page1">Randomization</h1>
+          <h3 id="what1" class="what-if page1">What if...</h3> 
+          <p id="p1message" class="page1">life is a series of random events, <br />and we have the ability to give meaning to those events?  
+          </p>
+
+            <div id="credits"><a class="p1credits" href="http://www.freepik.com">Background Design by pikisuperstar / Freepik</a><br>
+            Audio: The Sleeping Prophet by Jesse Gallagher
+            </div>
+
+            <div id="audio">
+            <h3 id="audio-browse">To browse with audio: </h3>
+            <audio src="media/audio2.mp3" controls loop>
+            <p>This browser does not support our audio format.</p>
+            </audio>
+            </div>
+
+            <img id="bluefeather" src="/images/bluefeather.png" alt="blue_feather">
+
+
+            <img class="d-block w-100" alt="">
+        
+        </div>
+      </div>
+  
+<!-- End of page 1 -->
+
+       
+<!-- Page 2 -->
+
+
+      <div class="carousel-item ">
+        <div id="page2">
+        <div id="heading2div">
+        <h3 id="heading2">What if
+        <span id="p2message">you read a random quote, and sat with it a bit longer, <br/>or read it several times, and applied it's meaning to your life?</span></h3>
+        </div>
+
+        <div id="quote-container">
+          <h3 id="quote-content"></h3>
+          
+      </div>    
+      <button id="moreContent" class="btn" type="submit">Generate Quote</button>
+      
+        <img class="d-block w-100"  alt="">
+      </div>
+      </div>
+
+
+
+<!-- End of page 2 -->
+
+<!-- PAGE 3 -->
+      <div class="carousel-item">
+        <div id="page3">
+          <div id="bored-container">
+            <h3 id="activity"></h3>
+          </div>
+          <button id="bored" type="submit">Generate Activity</button> 
+          <div id="heading3div">
+          
+            <h3 id="heading3">What if
+            <span class="p3message" id="p3message-1">you tried this random activity even if it doesn't sound fun, or even if you don't think you have the time?</span></h3> 
+          </div>
+          <img class="d-block w-100"  alt="">
+      </div>
+    </div>
     
-    </main>
-    <h3 id="activity"></h3>
-    <button id="bored" type="submit">Bored</button>
+
+    <!-- End of page 3 -->
+
+<!-- Page 4 -->
+    <div class="carousel-item">
+      <div id="page4">
+        <div id="heading4-container"><h3 id="heading4">Think of some random words and search for their images here.</h3>
+        </div>
+       <form id="form">
+        <input class="finder" type="text" id="search" placeholder="eg.summer">
+        <input class="finder" id="pexSubmit" type="submit" value="Search">
+        <div id="images">
+        </div>
+        </form>
+      </div>
+    </div>
+
+<!-- End of page 4 -->
 
 
 
+<!-- Page 5 -->
+    <div class="carousel-item">
+      <div id="page5">
+        <div id="poem-container">
+        <h3 id="poemTitle"></h3>
+        <h4 id="poemContent"></h4>
+        <h3 id="poet"></h3>
+      </div>
+        <button id="newPoem" type="submit">Random Poem</button>
+      
+      </div>
+      
+    </div>
 
-
- <h3 id="poemTitle"></h3>
- <h4 id="poemContent"></h4>
- <h3 id="poet"></h3>
-
- <button id="newPoem" type="submit">Poem</button>
    
+      <!-- End of page 5 -->
+ 
+
+
+  </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
 
 
 
 
 
-<div id="dogPics">
-<img id="dog" src="" alt=""><br />
-<button id="newDog">Dog</button>
-</div>
 
- <!-- <input type="text" placeholder="">
- <input type="submit"> 
- <input type="radio" name="test">
-<label for="test1">Test 1</label>
-<input type="radio" name="test">
-<label for="test2">Test 2</label>
-<input type="radio" name="test">
-<label for="test3">Test 3</label> -->
+
+
+
+
+ 
     
 
     
