@@ -23,7 +23,7 @@ const $activity = $('#activity');
         }, 1000, function() {
 
         });
-        let endpoint2 = 'http://www.boredapi.com/api/activity/';
+        let endpoint2 = 'https://www.boredapi.com/api/activity/';
         $.ajax({
         url: endpoint2,
         success: function(result) {
