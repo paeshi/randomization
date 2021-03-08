@@ -1,8 +1,8 @@
+
+
 :root {
     --aqua: #7fdbda;
-    --greenish: #ade498;
-    --yellowish: #ede682;
-    --orangeish: #febf63;
+  
     --bluey: rgb(30, 75, 113);
     --otherblue: rgb(85, 121, 155);
 }
@@ -42,10 +42,6 @@
     grid-column-end:1;
 }
 
-body {
-    /* background-color: bdflack; */
-    
-}
 
 #what1 {
     color: var(--bluey);
@@ -101,7 +97,9 @@ body {
     grid-row-start: 1;
     margin-bottom: 30rem;
     margin-left: 120rem;
-}
+}  
+
+
 
 
   #page2 {
@@ -434,16 +432,3 @@ body {
     
 
 }
-
-
-
-/* 
-@media screen and (min-width: 480px) and (max-width: 768px)
-{
-    body {
-        background-color: red;
-    }
-    p {
-        padding: .5rem;
-    } 
-} */

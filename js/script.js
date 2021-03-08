@@ -1,4 +1,6 @@
-// quotable api
+
+// Quotable API Call
+
 const $content = $('#quote-content');
 $('button#moreContent').on('click', function(e) {
     e.preventDefault();
@@ -8,12 +10,13 @@ $('button#moreContent').on('click', function(e) {
         success: function(result) {
             $content.html('" '+ result.content +'" ' + 
             '<br/><br/>' + '-' + result.author)
-            
         }
-        });
-    })
+    });
+})
 
     
+// Bored API Call
+
 const $activity = $('#activity');
     $('button#bored').on('click', function(e) {
         e.preventDefault();
@@ -32,12 +35,15 @@ const $activity = $('#activity');
             }
         });
     })
+
+    // Heading Fade In
+
     $('#heading3div').hide(); 
     $('#bored-container').mouseover(function() {
         $('#heading3div').fadeIn(500, 'linear');
     })
 
-   
+//    Bluefeather reveal
 $('#bluefeather').hide();
 $('#heading1').mouseover(function() {
     $('#bluefeather').fadeIn(500, 'swing');
@@ -47,7 +53,7 @@ $('#p1message').mouseover(function() {
 })
 
 
-    
+    // Heading 2 Fade In
 $('#heading2div').hide(); 
     $('#moreContent').mouseover(function () {
         $('#heading2div').fadeIn(2000, 'linear'); 
@@ -56,7 +62,7 @@ $('#heading2div').hide();
 
     
 
-//    random poem api
+//    Random Poem API Call Poemist
 const $poemTitle = $('#poemTitle');
 const $poemContent = $('#poemContent');
 const $poet = $('#poet');
@@ -74,6 +80,7 @@ const $poet = $('#poet');
         });
     })
 
+    // Dog Photos API Call
 const $dog = $('#dog');
     $('button#newDog').on('click', function(e) {
         e.preventDefault();
@@ -82,11 +89,12 @@ const $dog = $('#dog');
         success: function(result) {
         $dog.attr("src", `${result.message}`);
                    
-                    
             }
         });
     });
 
+
+    // Pexel Photos API Call
 const $pexFrame = $('#pexFrame');
 const api_key = "563492ad6f917000010000014b61995ccd004085ba7dfe6c20ef2b8f"; 
 
