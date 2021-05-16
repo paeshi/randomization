@@ -26,4 +26,4 @@ The landing page design was made py pikisuperstar at Freepik.com. I changed the 
 
 ## 🌟 Go to the site:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e0073bbb-f5f5-4e60-a125-bd5713fac024/deploy-status)](https://app.netlify.com/sites/randomization/deploys)
+[Randomization](https://randomization.netlify.app/)
