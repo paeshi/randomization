@@ -95,7 +95,7 @@ const api_key = "563492ad6f917000010000014b61995ccd004085ba7dfe6c20ef2b8f";
 $("#form").submit(function (e) {
   e.preventDefault();
   let search = $("#search").val();
-  let url = "https://api.pexels.com/v1/search?query=" + search + "&per_page=6";
+  let url = "https://api.pexels.com/v1/search?query=" + search + "&per_page=15";
 
   let image = "";
   $("#images").empty();
