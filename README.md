@@ -2,6 +2,8 @@
 
 This app was created to practice API calls, jquery commands and animations, and to practice responsive web design,and creating single page applications. There are four APIs to gather random quotes, activities, photos, and poems. A narrative was also created to enhance the experience.
 
+The landing page design was made py pikisuperstar at Freepik.com. I changed the design for each subsequential page with Adobe Illustrator.
+
 ## 🔌 Technologies Used
 
     - HTML5
@@ -18,7 +20,6 @@ This app was created to practice API calls, jquery commands and animations, and 
 
 ## 🚀 Future Enhancements
 
-    - Responsive Web Design
     - Add Random Audio Selector
     - Incorporate Video Viewer
     - Look into Randonautica and Omegle APIs
