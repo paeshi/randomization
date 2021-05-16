@@ -1,6 +1,6 @@
 # ✨ Randomization: Finding Meaning Through Random Source Generators
 
-This app calls on several different APIs to gather random quotes, activities, photos, and poems.
+This app was created to practice API calls, jquery commands and animations, and to practice responsive web design,and creating single page applications. There are four APIs to gather random quotes, activities, photos, and poems. A narrative was also created to enhance the experience.
 
 ## 🔌 Technologies Used
 
@@ -23,6 +23,6 @@ This app calls on several different APIs to gather random quotes, activities, ph
     - Incorporate Video Viewer
     - Look into Randonautica and Omegle APIs
 
-## 🌟 Getting Started
+## 🌟 Go to the site:
 
-    [Click here](https://quote-for-today.vercel.app/) to see the deployed app.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e0073bbb-f5f5-4e60-a125-bd5713fac024/deploy-status)](https://app.netlify.com/sites/randomization/deploys)
