@@ -16,7 +16,6 @@ The landing page design was made py pikisuperstar at Freepik.com. I changed the 
     - [Poemist API](https://poemist.com/api)
     - Bootstrap 4
     - Google Fonts
-    - Github Pages (for deployment)
 
 ## 🚀 Future Enhancements
 
