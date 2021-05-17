@@ -1,6 +1,6 @@
 # ✨ Randomization: Finding Meaning Through Random Source Generators
 
-This app was created to practice API calls, jquery commands and animations, and to practice responsive web design,and creating single page applications. There are four APIs to gather random quotes, activities, photos, and poems. A narrative was also created to enhance the experience.
+This app was created to practice several things: making AJAX requests, using jQuery and jQuery animations, to practice responsive web design, and to create a single page application. There are four APIs used to gather random data. The data includes quotes, activities, photos, and poems. A narrative was also created to enhance the user experience.
 
 The landing page design was made py pikisuperstar at Freepik.com. I changed the design for each subsequential page with Adobe Illustrator.
 
