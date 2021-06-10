@@ -13,18 +13,24 @@
   margin: auto;
   height: 100vh;
   padding: 1em;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("/images/page1.jpg");
 }
 @media screen and (min-width: 1500px) {
   #main-page1 {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: min-content;
     row-gap: 0px;
-    column-gap: 1px;
-    align-content: center;
+    column-gap: 1px; */
+    /* align-content: center; */
   }
+}
+.messagediv {
+  max-width: 600px;
+  border: 2px solid black;
 }
 
 #heading1 {
@@ -34,15 +40,16 @@
   text-shadow: 10px 5px 3px var(--aqua);
   font-weight: 900;
   width: 100%;
+  font-size: 3rem;
 }
 
 @media screen and (min-width: 1500px) {
   #heading1 {
-    transform: rotate(-45deg);
-    font-size: 5rem;
+    /* transform: rotate(-45deg); */
+    font-size: 9rem;
   }
   .messagediv {
-    transform: rotate(-45deg);
+    /* transform: rotate(-45deg); */
     width: 100%;
     font-size: 2rem;
   }
@@ -66,7 +73,7 @@
 
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  width: 70%;
+  width: 100%;
   border-radius: 10px;
   padding: 1em;
 }
@@ -85,7 +92,7 @@
 } */
 #credits {
   border: 2px solid var(--aqua);
-  width: 80%;
+  max-width: 500px;
   font-size: 0.9rem;
   height: auto;
   grid-column-start: 3;
@@ -95,11 +102,8 @@
 }
 
 #bluefeather {
-  position: absolute;
-  grid-column-start: 3;
-  grid-row-start: 1;
-  margin-bottom: 30rem;
-  margin-left: 120rem;
+  /* margin-bottom: 30rem;
+  margin-left: 120rem; */
 }
 
 #page2 {
@@ -173,7 +177,7 @@
 #p2message {
   color: var(--bluey);
   text-shadow: 3px 3px 1px white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 

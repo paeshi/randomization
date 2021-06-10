@@ -40,7 +40,7 @@ $("button#bored").on("click", function (e) {
 
 $("#heading3div").hide();
 $("#bored-container").mouseover(function () {
-  $("#heading3div").fadeIn(500, "linear");
+  $("#heading3div").fadeIn(1500, "linear");
 });
 
 //    Bluefeather reveal
@@ -77,16 +77,16 @@ $("button#newPoem").on("click", function (e) {
 });
 
 // Dog Photos API Call
-const $dog = $("#dog");
-$("button#newDog").on("click", function (e) {
-  e.preventDefault();
-  $.ajax({
-    url: "https://dog.ceo/api/breeds/image/random",
-    success: function (result) {
-      $dog.attr("src", `${result.message}`);
-    },
-  });
-});
+// const $dog = $("#dog");
+// $("button#newDog").on("click", function (e) {
+//   e.preventDefault();
+//   $.ajax({
+//     url: "https://dog.ceo/api/breeds/image/random",
+//     success: function (result) {
+//       $dog.attr("src", `${result.message}`);
+//     },
+//   });
+// });
 
 // Pexel Photos API Call
 const $pexFrame = $("#pexFrame");
